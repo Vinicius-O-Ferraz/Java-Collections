@@ -39,11 +39,10 @@ public class TasksList {
         System.out.println(t.getNumberOfTasks());
         t.addTask("get this working right");
         t.addTask("get this working right");
+        t.getDescriptionOfTasks();
         System.out.println(t.getNumberOfTasks());
         t.removeTask("get this working right");
         System.out.println(t.getNumberOfTasks());
-
-
 
     }
 }
